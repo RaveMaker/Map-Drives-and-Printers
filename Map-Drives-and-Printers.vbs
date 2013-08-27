@@ -1,4 +1,7 @@
 ' Map Drives and Printers according to AD group memberships
+'
+' by RaveMaker - http://ravemaker.net
+
 Option Explicit
 
 Dim objNetwork, objSysInfo, strUserDN
