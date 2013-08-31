@@ -48,8 +48,8 @@ End If
 ' Add a network printer if the computer is a member of the group.
 ' Make this printer the default.
 
-objNetwork.AddWindowsPrinterConnection "\\server\GlobalPrinter"
-objNetwork.SetDefaultPrinter "\\server\GlobalPrinter"
+objNetwork.AddWindowsPrinterConnection "\\server\PublicPrinter"
+objNetwork.SetDefaultPrinter "\\server\PublicPrinter"
 
 If (IsMember(objComputer, "Admins Computers") = True) Then
     objNetwork.AddWindowsPrinterConnection "\\server\AdminPrinter"
