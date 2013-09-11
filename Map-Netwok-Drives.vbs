@@ -1,4 +1,5 @@
-' Map Drives
+' Map Network Drives
+' Connect to a Windows share
 '
 ' by RaveMaker - http://ravemaker.net
 
