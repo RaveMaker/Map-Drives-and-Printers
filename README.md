@@ -9,5 +9,6 @@ VB Script - Map Drives and Printers according to AD group memberships
 
 2. Edit the script and change the Drives, Printers and Groups to match your environment.
 
-by [RaveMaker][RaveMaker].
+Author: [RaveMaker][RaveMaker].
+
 [RaveMaker]: http://ravemaker.net
